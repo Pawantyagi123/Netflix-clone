@@ -7,7 +7,7 @@ body {
     background-color: black;
 }
 .main{
-    background-image: url(./assest/netflix\ background.jpg);
+    background-image: url(../assest/netflix\ background.jpg);
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
