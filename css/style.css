@@ -107,12 +107,14 @@ nav button {
 }
 
 .btn-red-sm {
-    background: linear-gradient(40deg,red,black);
+    background: red;
     color: white;
+    font-size: 16px;
+    border: none;
 }
 
 .btn-red-sm:hover{
-    background: linear-gradient(40deg,black,red);
+   opacity: 0.7;;
 }
 
 .hero-buttons {
@@ -200,11 +202,12 @@ section.first>div :nth-child(2) {
 }
 
 .faqbox .text{
-   margin-top: 50px;
+   margin-top: 20px;
    background-color: #292828;
    padding: 2rem;
    display: none;
    transition: max-height 0.3s ease-out;
+   font-size: 1.5rem;
 }
 
 .faqbox svg {
@@ -327,4 +330,6 @@ footer .questions {
     flex-direction: column;
     gap: 23px;
 }
+
+
 

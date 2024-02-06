@@ -2,10 +2,14 @@ const options = ["English", "Hindi", "French", "Japnes", "Chines"];
 
     // Create a select element
     const select = document.createElement("select");
+    select.style.border = "none"
+    select.style.backgroundColor = "transparent";
+    select.style.color ="white"
 
     // Add options to the select element
     for (var i = 0; i < options.length; i++) {
         var option = document.createElement("option");
+        option.style.color = "black"
         option.value = options[i];
         option.text = options[i];
         select.appendChild(option);
@@ -23,10 +27,12 @@ const options = ["English", "Hindi", "French", "Japnes", "Chines"];
     document.addEventListener("DOMContentLoaded", function() {
         var dropdown = document.getElementById("faqDropdown");
         var dropdownContent = document.getElementById("faqDropdownContent");
+    
 
         // Show/hide dropdown content when the dropdown is clicked
         dropdown.addEventListener("click", function() {
             dropdownContent.classList.toggle("show");
+           
         });
 
         // Hide dropdown content when clicking outside the dropdown
@@ -60,3 +66,8 @@ const options = ["English", "Hindi", "French", "Japnes", "Chines"];
         var descriptionText = icon.nextElementSibling;
         descriptionText.style.display = descriptionText.style.display === 'none' ? 'block' : 'none';
     }
+
+
+
+
+    

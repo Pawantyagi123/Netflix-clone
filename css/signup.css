@@ -31,3 +31,122 @@ nav span img{
     font-size: 25px;
     background-color: transparent;
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.367)), url(../assest/netflix\ background.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 4rem;
+}
+
+nav img{
+    width: 150px;
+}
+
+nav a i{
+    font-size: 30px;
+}
+@media (max-width: 500px){
+.container{
+    padding: 0;
+}
+.login-box{
+    width: 100%;
+   
+}
+
+body{
+    background: black;
+}
+}
+
+@media(max-width:375px){
+    .login-box{
+        padding: 2rem;
+    }
+
+    input{
+        width: 340px;
+    }
+}
+.login-box{
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+padding: 2rem;
+    border-radius: 5px;
+}
+
+.login-box img{
+    width: 130px;
+
+}
+
+.login-box form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box input{
+    margin-bottom: 30px;
+    width: 360px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.434);
+    border: 1px solid rgba(192, 184, 184, 0.653);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+button{
+    border: none;
+    padding: 1rem 9.5rem 1rem 9.5rem;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.login-box img{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(247, 241, 241);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+form a{
+    padding-top: 20px;
+}
