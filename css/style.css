@@ -172,7 +172,11 @@ section.first>div :nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
 }
-
+@media(max-width: 500px){
+    section.first>div :nth-child(1) {
+        font-size: 20px;
+    }
+}
 
 section.first>div :nth-child(2) {
     font-size: 24px;
@@ -184,7 +188,11 @@ section.first>div :nth-child(2) {
     text-align: center;
     font-size: 48px;
 }
-
+@media(max-width:450px){
+    .faq h2{
+        font-size: 30px;
+    }
+}
 .faq {
     background: black;
     color: white;
@@ -199,6 +207,7 @@ section.first>div :nth-child(2) {
 .faqbox{
     display: flex;
     flex-direction: column;
+   
 }
 
 .faqbox .text{
@@ -209,7 +218,11 @@ section.first>div :nth-child(2) {
    transition: max-height 0.3s ease-out;
    font-size: 1.5rem;
 }
-
+@media(max-width:350px){
+    .faqbox .text{
+        font-size: 1rem;
+    }
+}
 .faqbox svg {
     filter: invert(1);
 }
@@ -232,7 +245,11 @@ section.first>div :nth-child(2) {
     margin: 34px auto;
     cursor: pointer;
 }
-
+@media(max-width:470px){
+    .faqbox{
+        font-size: 20px;
+    }
+}
 footer {
     color: white;
     max-width: 60vw;
